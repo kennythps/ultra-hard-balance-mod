@@ -1,0 +1,27 @@
+# ── Build output / shipped binaries ───────────────────────────────────────────
+# The compiled script and the packed archive are distributed through GitHub
+# Releases, not through git history.
+physics.qb
+physics.txt.qb
+*.prx
+*.dll
+
+# ── Third-party tools (not part of this project) ──────────────────────────────
+# PreTool.exe, roqq.exe and "roq cmd.exe" are community tools written by other
+# people. They are documented in README.md / "How it was built" but never
+# committed here.
+*.exe
+*.exe.config
+
+# ── Distribution package rebuilt from release/ ────────────────────────────────
+release/
+
+# ── Scratch ───────────────────────────────────────────────────────────────────
+*.bak
+*.orig
+*.tmp
+~$*
+
+# Release archive built locally
+*.zip
+
